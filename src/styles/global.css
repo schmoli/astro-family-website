@@ -9,5 +9,5 @@ a,
 /* TODO: remember there's a via-[color] option */
 .gradient-text {
   @apply text-transparent bg-clip-text;
-  @apply bg-gradient-to-br from-orange-600 via-blue-500 to-orange-600;
+  @apply bg-gradient-to-br from-orange-500 via-blue-500 to-orange-500;
 }
