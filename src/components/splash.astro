@@ -24,11 +24,11 @@ const pngSrcset = png.map(({ srcset }) => srcset).join(",");
   <div id="splash-bg-fallback" class="absolute inset-0 hidden opacity-40">
     <HeroImage />
   </div>
-  <div class="relative grid h-full sm:grid-cols-2 place-items-center">
+  <div class="relative grid h-full sm:grid-cols-2 place-items-center overflow-hidden">
     <h2
       class="flex flex-col self-end gap-2 sm:gap-4 sm:self-auto sm:justify-self-end"
     >
-      <!-- <Icon name="logomark" class="h-24 text-white md:h-32" /> -->
+      <Icon name="openmoji:rocket" class="h-24 text-white md:h-32" />
       <div
         class="font-extrabold tracking-tighter text-center text-8xl gradient-text pb-2"
       >
@@ -51,7 +51,7 @@ const pngSrcset = png.map(({ srcset }) => srcset).join(",");
         height={png[0].height}
         alt="A floating astronaut in a space suit"
       /> -->
-      <Icon name="openmoji:rocket" />
+      <Icon name="openmoji:ringed-planet" />
     </picture>
   </div>
 </section>
